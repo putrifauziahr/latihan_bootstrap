@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		ti.polindra.ac.id
+	</title>
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<style type="text/css">
+		.teksgambar{}
+		.nav justify-content-end{}
+		.nav-item {}
+		.nav-link {
+			background-color: #4682B4;
+		}
+		a{
+			color: white;
+		}
+		h1{
+			text-align: center;
+			font-family: Times New Roman;
+			font-weight: bold;
+		}
+		.continer{}
+		.article{
+			text-align: justify;
+		}
+		.aside{
+			text-align: justify;
+		}
+		.container-fluid, .kotak-pesan{
+			border-style: solid;
+			border-width: 1px;
+			border-color: red;
+		}
+		.container-fluid, .kotak-pesan, .form-group{
+				padding:40px;
+		}
+		.content{
+			text-align: center;
+		}
+		.row{
+
+		}
+		.kotak-pesan{
+
+		}
+		.btn btn-primary{
+		}
+		.form-group{
+			border: solid 1px red;
+		}
+		.kirim{
+			margin-bottom: 18px;
+		}
+		H3{
+			text-align: center;
+		}
+
+	</style>
+
+
+
+</head>
+<body>
+<!-- content 1 -->
+<div class="container-fluid">
+	<div class="content">
+		<h3>HAHAHAHAHAI</h3>
+	</div>
+</div>
+
+<!-- content 2 -->
+<div class="container-fluid">
+	<!-- kotak-pesan -->
+	<div class="kotak-pesan bg-light">
+		<H3> KIRIM PESAN </H3>
+			<form>
+					<div class="form-group">
+					  <label for="exampleInputEmail1">Nama Lengkap</label>
+					  <input type="nama" class="form-control" id="InputNama" aria-describedby="namalHelp" placeholder="Enter nama">
+					  <small id="namaHelp" class="form-text text-muted">We'll never share your name with anyone else.</small>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Pesan</label>
+						<input type="pesan" class="form-control" id="InputPesan" aria-describedby="pesanHelp" placeholder="Enter pesan">
+						<small id="pesanHelp" class="form-text text-muted">We'll never share your pesan with anyone else.</small>
+					</div>
+					<!-- KIRIM -->
+					<button type="button" class="btn btn-primary kirim">
+						KIRIM
+					</button>
+					<!-- PESAN VALIDASI -->
+					<div class="alert alert-warning alert-dismissible fade show" role="alert" id="validasi">
+							<strong>Hayo Loh!</strong> Ada Isian yang masih kosong.
+							<button type="submit" onclick="validasi()"  class="close" data-dismiss="alert" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+					</div>
+			</form>
+	</div>
+</div>
+
+<script>
+	document.getElementById("validasi").style.display="none";
+	function validasi{
+		var nama=document.getElementById("InputNama").value;
+		if (nama || email || pesan){
+		document.getElementById("validasi").style.display="block";
+		}
+	}
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="teksgambar">
+	<p><marquee> Welcome to Teknik Informatika Politeknik Negeri Indramayu </marquee></p>
+	</div>
+<br>
+<br>
+	<h1 > <img src="POLINDRA.PNG" width="175" height="175" align="left"> TEKNIK INFORMATIKA </h1>
+	<br><h1 > POLITEKNIK NEGERI INDRAMAYU </h1>
+<br>
+<br>
+<br>
+<br>
+
+	<ul class="nav justify-content-end">
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">HOME</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">PROFILE</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">PROGRAM STUDI</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">FASILITAS</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">ALUMNI</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">TESTIMONI</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">PETA KAMPUS</a>
+  		</li>
+	</ul>
+	
+<br>
+<br>
+<br>
+<br>
+	<table border="0" width="1335" cellspacing="0" class="hero-image">
+	<tr>
+	<td></td>
+	</tr>
+	</table>
+
+
+<br>
+<br>
+
+	<fieldset><legend align="center">
+		<h3 style="font-family: goudy stout; color: #4682B4"> WHAT'S NEW??? </h3>
+	</legend>
+<br>
+<br>
+<br>
+<div class="container">
+	<div class="aside">
+		<p style="font-size: 22px; font-weight: bold"> Mahasiswa Berprestasi Berhasil Meraih Juara 3, Lomba Kontes Majalah Kampus Tingkat Nasional </p>
+		<p>Hari Batik Nasional,  jatuh pada tanggal 02 Oktober setiap tahunnya. Hari Batik merupakan salah satu momentum yang baik untuk lebih mengenal dan mencintai budaya bangsa Indonesia, salah satunya Batik. Euforia hari batik juga sampai kepada seluruh masyarakat Politeknik Negeri Indramayu yang mengenakan Batik di hari batik 02 Oktober lalu. Antusiasme menggunakan batik cukup tinggi dikalangan Mahasiswa Politekniik Negeri Indramayu. Selain untuk mengenal budaya bangsa, hari batik ini juga di manfaatkan untuk berfoto bersama dengan teman sekelas dan membuat video bersama juga. Semoga Antusiasme Bangsa Indonesia untuk mengenakan Batik bukan hanya dihari batik saja. Tapi dihari-hari biasa lainnya juga. Aku Cinta Batik, Aku Cinta Indonesia. Bhinneka Tunggal Ika. Meskipun berbeda-beda, tetapi tetap satu.</p>
+	</div>
+
+	<div class="article">
+		<p style="font-size: 22px; font-weight: bold; color:red ">Tim Good People Politeknik Negeri Indramayu, Berhasil Membawa Medali Perunggu Pada Ajang KMIPN 2019</p>
+		<p> <img src="goodpeople.jpg" width="500" height="300" align="center"></p><p> Hari batik ini juga di manfaatkan untuk berfoto bersama dengan teman sekelas dan membuat video bersama juga.Semoga Antusiasme Bangsa Indonesia untuk mengenakan Batik bukan hanya dihari batik saja. Tapi dihari-hari biasa lainnya juga. Aku Cinta Batik, Aku Cinta Indonesia.</p>
+	</div>
+
+
+	<div class="aside">
+		<p style="font-size: 22px; font-weight: bold">Mahasiswa Dan Dosen Politeknik Negeri Indramayu, Kompak Kenakan Batik Dalam Rangka Memperingati Hari Batik Nasional 2 Oktober 2019 </p>
+		<p>Hari Batik Nasional,  jatuh pada tanggal 02 Oktober setiap tahunnya. Hari Batik merupakan salah satu momentum yang baik untuk lebih mengenal dan mencintai budaya bangsa Indonesia, salah satunya Batik. Euforia hari batik juga sampai kepada seluruh masyarakat Politeknik Negeri Indramayu yang mengenakan Batik di hari batik 02 Oktober lalu. Antusiasme menggunakan batik cukup tinggi dikalangan Mahasiswa Politekniik Negeri Indramayu. Selain untuk mengenal budaya bangsa, hari batik ini juga di manfaatkan untuk berfoto bersama dengan teman sekelas dan membuat video bersama juga. Semoga Antusiasme Bangsa Indonesia untuk mengenakan Batik bukan hanya dihari batik saja. Tapi dihari-hari biasa lainnya juga. Aku Cinta Batik. Aku Cinta Indonesia<br>
+</p>
+	</div>
+</div>
+</fieldset>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<p align="center" style="font-weight: bold; font-size: 18px; font-family: goudy stout; color: #4682B4"> TESTIMONI ALUMNI </p>
+<br>
+<table width="1000" align="center" border="0" cellspacing="25" bgcolor="#FFA07A" style="font-weight: bold; padding: 10px 10px 10px; margin-left: 180px;">
+	<tr>
+		<td>
+			Muhammad Zaki
+			<br> Sumber, Cirebon
+			<br> mzakey@gmail.com
+			<br> D4 Rekayasa Perangkat Lunak
+			<br> Mobile Developer
+			<br> Google Playstore, Indonesia
+			<br> 0812345678999
+		</td>
+		<td>
+			Aisyah Ramadan
+			<br> Bangkir, Indramayu
+			<br> aramadan@gmail.com
+			<br> D3 Teknik Informatika
+			<br> Programmer
+			<br> PT Rajawali Televisi, Jakarta, Indonesia
+			<br> 0898765432111
+		</td>
+		<td>
+			Rizal Anwar
+			<br> Kroya, Indramayu
+			<br> rizalanwar@gmail.com
+			<br> D3 Teknik Informatik
+			<br> Programmer
+			<br> Gojek, Jakarta, Indonesia
+			<br> 08109874567
+		</td>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+
+<fieldset>
+ <form method = 'post' action="#">
+ <p align="center" style="font-weight: bold; font-size: 18px; font-family: goudy stout; color: #4682B4"><b> FORM KRITIK DAN SARAN </b></p>
+ <br>
+ <br>
+ <div class="alert alert-warning alert-dismissible fade show" role="alert" align="center">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <a class="close" data-dismiss="alert" href="tii.html">&times;</a>
+ </div>
+ 
+	Nama :
+ 	<input type='text' name='nama' placeholder="Nama Anda" size="49" required>
+ 	 <br>
+ 	 <br>
+	Email :
+	<input type='text' name='email' placeholder="Email Anda" size="50" required>
+	 <br>
+ 	 <br>
+	Kontak :   
+	<input type='text' name='kontak' placeholder="Kontak Anda" size="48" required>
+	 <br>
+ 	 <br>
+    Kritik dan Saran : 
+	<input type='text' name='kritik' placeholder="Kritik dan Saran" size="39" required>
+	 <br>
+ 	 <br>
+	<input type='submit' value='KIRIM'>
+
+ </form>
+</fieldset>
+
+<br>
+<br>
+<div class="footer">
+		<div class="block-inline"> 
+	Teknik Informatika, Politeknik Negeri Indramayu
+	<br>Jl. Raya Lohbener lama no.8 Lohbener Indramayu
+	<br>081234567890
+	<br> Website : ti.polindra.ac.id
+	<br>Salam hangat dari keluarga Teknik Informatika, Polindra 
+	</div>
+<br>	</div>
+</body>
+</html>
